@@ -7,7 +7,8 @@ TOYOSHIKI Tiny BASIC for Arduino(ESP8266/ESP-WROOM-02) WiFi Telnet対応版
 4.PRINT命令のエスケープシーケンス対応<br>
 
 basic.cppのssidとpasswordは自分の環境に合わせて書き換えて下さい。<br>
-
+ESP8266/ESP-WROOM-02に割り振られるIPアドレスはArduino IDEのシリアルモニタで確認して下さい。<br>
+Telnet接続の動作確認はWindows10＋TeraTermで行いました。<br>
 
 The code tested in ESP-WROOM-02.<br>
 Use UART terminal, or temporarily use Arduino IDE serial monitor.
