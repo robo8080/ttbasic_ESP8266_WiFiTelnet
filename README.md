@@ -3,9 +3,9 @@ TOYOSHIKI Tiny BASIC for Arduino(ESP8266/ESP-WROOM-02) WiFi Telnet対応版
 オリジナルのArduino版からの変更点<br>
 1.ESP8266/ESP-WROOM-02だとSoft WDTに引っかかってしまう問題を対策<br>
 2.LOAD/SAVEコマンドを追加（LOAD/SAVEできるプログラムは１つのみ）<br>
-3.WiFi経由でのTelnet接続対応<br>
+3.WiFi経由でのTelnet接続対応。Portは10001<br>
 4.PRINT命令のエスケープシーケンス対応<br>
-<br>
+
 basic.cppのssidとpasswordは自分の環境に合わせて書き換えて下さい。<br>
 
 
