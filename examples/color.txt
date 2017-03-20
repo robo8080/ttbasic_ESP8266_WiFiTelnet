@@ -1,0 +1,9 @@
+10 PRINT "\033[2J","\033[?25l",
+20 FOR I=1 TO 7
+30 PRINT "\033[",I,";",I,"H","\033[3",I,"m","TinyBASIC",
+40 NEXT I
+50 PRINT "\033[30m",
+60 FOR I=1 TO 7
+70 PRINT "\033[",I+7,";",I+7,"H","\033[4",I,"m","TinyBASIC",
+80 NEXT I
+90 PRINT "\033[39m","\033[49m","\033[?25h",
